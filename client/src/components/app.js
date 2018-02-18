@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom';
+
+import DevJuhyung from '../containers/developer_juhyung'
+import PersonJuhyung from '../containers/person_juhyung'
+
 class App extends Component {
-
-
+  
   render() {
+    
     return (
       <div>
         <p>
-          <button type="submit" >Person Juhyung</button>
-          <button type="submit">Developer Juhyung</button>
+          <Link to="/PersonJuhyung">
+            Person Juhyung 
+          </Link>
+          <Link to="/DevJuhyung">
+            Developer Juhyung
+          </Link>
         </p>
       </div>
     );
