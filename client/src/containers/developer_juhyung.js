@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navigator from '../components/navigator';
 
 class DevJuhyung extends Component {
 
@@ -6,7 +7,7 @@ class DevJuhyung extends Component {
   render() {
     return (
       <div>
-        Developer Juhyung
+        <Navigator />
       </div>
     );
   }
