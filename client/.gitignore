@@ -19,3 +19,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Unfinished UI
+/src/Mycomponent
+
+#Json server
+db.json
