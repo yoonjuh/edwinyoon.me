@@ -1,4 +1,4 @@
-header {
+.header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-light, 0.8)), url("./img/mainPage.jpg");
   background-size: cover;
@@ -25,4 +25,20 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
   } //Then with __text-box
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s;
+  &:hover {
+    transform: skewY(15deg) skewX(10deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
 }

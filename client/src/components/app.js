@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../style/img/logo_edd.png';
 
+import Skills from './skills';
+
 // import DevJuhyung from '../containers/developer_juhyung'
 // import PersonJuhyung from '../containers/person_juhyung'
 
@@ -21,6 +23,9 @@ const App = () => (
         </a>
       </div>
     </header>
+    <main>
+      <Skills />
+    </main>
   </div>
 );
 
