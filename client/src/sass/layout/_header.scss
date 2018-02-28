@@ -1,0 +1,28 @@
+header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-light, 0.8)), url("./img/mainPage.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); //Utill this line is for just className header
+  &__logo-box {
+    // In this case & represents header then __logo-box is modifier
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  } //Then className header with __logo-box
+  &__logo {
+    height: 3.5rem;
+  } //Then  with __logo
+  &__logo:hover {
+    height: 7.5rem;
+    animation: moveFromLeft 2s ease-out;
+  } //Then  with --logo:hover
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } //Then with __text-box
+}

@@ -1,0 +1,18 @@
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // This line is typography
+  /*The root font-size, 1 rem = 10px 
+  62.5% of 16px is 10px(1rem) */
+  /*The reson wahy we put here 62.5% is that every user may have 
+  different default font-size for their browser*/
+}
+
+body {
+  box-sizing: border-box;
+}
