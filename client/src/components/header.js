@@ -10,7 +10,7 @@ const Header = () => (
           <span className="heading-primary--sub">Javascript Developer</span>
         </h1>
 
-        <a href="#" className="btn btn--white btn--animated">
+        <a href="#profile" className="btn btn--white btn--animated">
           Profile
         </a>
       </div>

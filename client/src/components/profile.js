@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Profile = () => (
-  <section className="section-profile">
+  <section className="section-profile" id="profile">
     <div className="row">
       <div className="col-1-of-4">
         <div className="profile-box">

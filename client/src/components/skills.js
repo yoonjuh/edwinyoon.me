@@ -9,7 +9,7 @@ import gmail from '../style/img/gm.png';
 
 const Skills = () => (
   <div>
-    <section className="section-about">
+    <section className="section-about" id="skills">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Things I have been stydying</h2>
       </div>
@@ -17,11 +17,13 @@ const Skills = () => (
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">Javascript</h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            In modern web development area, I believe that Javascript is a fundamental programming language that you
+            must learn, that is why I have spent a lot of time for it, Check out my github account, you will see those
+            projects I have been working on.
           </p>
-          <h3 className="heading-tertiary u-margin-bottom-small">Contact Links</h3>
+          <h3 className="heading-tertiary u-margin-bottom-small" id="contact">
+            Contact Links
+          </h3>
           <p className="paragraph">
             <a href="https://github.com/EdwinYoon" target="_blank" className="contact-icon">
               <img src={git} alt="Github" className="social-icons" />
@@ -40,15 +42,21 @@ const Skills = () => (
               <img src={gmail} alt="Github" className="social-icons" />
             </a>
           </p>
-          <a href="#" className="btn-text">
+          {/* <a href="#" className="btn-text">
             See more &rArr;
-          </a>
+          </a> */}
         </div>
         <div className="col-1-of-2">
           <div className="composition">
-            <img src={project3} alt="React-Redux" className="composition__photo composition__photo--p1" />
-            <img src={project2} alt="Redux-app" className="composition__photo composition__photo--p2" />
-            <img src={project1} alt="React-app" className="composition__photo composition__photo--p3" />
+            <a href="https://github.com/EdwinYoon/react-router-blog" target="_blank">
+              <img src={project3} alt="React-Redux" className="composition__photo composition__photo--p1" />
+            </a>
+            <a href="https://github.com/EdwinYoon/react-redux-todoList" target="_blank">
+              <img src={project2} alt="Redux-app" className="composition__photo composition__photo--p2" />
+            </a>
+            <a href="https://github.com/EdwinYoon/react-youtubeApi" target="_blank">
+              <img src={project1} alt="React-app" className="composition__photo composition__photo--p3" />
+            </a>
           </div>
         </div>
       </div>
