@@ -6,5 +6,6 @@ import ReactDOM from 'react-dom';
 // import store from './store';
 import App from './components/app';
 import './style/main.css';
+import './style/icon-font.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
