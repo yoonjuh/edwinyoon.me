@@ -69,3 +69,14 @@
     transform: translateY(0);
   }
 }
+
+.social-icons {
+  width: 15%;
+  letter-spacing: 2rem;
+  :hover {
+    outline: 1.5rem solid $color-primary-light;
+    transform: scale(1.05) translateY(-1rem);
+    box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+    z-index: 20;
+  }
+}
