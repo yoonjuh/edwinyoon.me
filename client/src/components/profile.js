@@ -1,5 +1,4 @@
 import React from 'react';
-import Juhyung from '../style/img/c1.jpg';
 
 const Profile = () => (
   <section className="section-profile">
@@ -44,7 +43,10 @@ const Profile = () => (
         <div className="profile-box">
           <i className="profile-box__icon icon-basic-heart" />
           <h3 className="heading-tertiary u-margin-bottom-small">Interests</h3>
-          <p className="profile-box__text">Learning web-programming skills & Playing "GO"</p>
+          <p className="profile-box__text">
+            I went though Go(Baduk) professional in training for 10-years.<br /> Currently, I am an active member of
+            multiful Toronto Go Clubs and Canadian Go Association
+          </p>
         </div>
       </div>
     </div>
