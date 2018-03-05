@@ -1,4 +1,4 @@
-# edwinyoon.io
+## edwinyoon.me
 
 ### Juhyung's profile web-page using Javascript and CSS
 ##### Mobile version will be updated soon.
